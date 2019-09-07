@@ -69,7 +69,8 @@
     transform: rotate(90deg);
 }
 
-.skillsSection{
+.skillsSection,
+.contactSection{
     background-color: #010101;
     color: #fff;
 }
@@ -121,6 +122,7 @@
  .squareItem{
     margin-top: 100px;
     position: relative;
+    margin-bottom: 50px
 
 }
 
@@ -169,4 +171,43 @@
 #stats{
     background-color: #2d3436;
     color: #fff
+}
+.subHeading{
+    padding-top: 50px
+}
+.contactButton{
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin-bottom: 50px
+}
+
+.contactButton:hover{
+    text-decoration: none;
+    color: #000000;
+    background-color: #fff
+}
+
+.filter a{
+    color: #fff;
+    border: 1px solid;
+    padding: 18px;
+}
+
+.filter li{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 80px;
+}
+
+.filter .current{
+    background-color: #000000;
+    color: #fff;
+}
+#Portfolio{
+    background-color: #000000;
+    color: #fff;
 }
