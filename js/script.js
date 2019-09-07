@@ -37,7 +37,6 @@ $('.owl-carousel').owlCarousel({
 var skillsTopOffset = $(".skillsSection").offset().top;
 $(window).scroll(function()
 {
-    console.log(window.pageYOffset);
     if(window.pageYOffset > skillsTopOffset - $(window).height() + 200)
     {
         $('.chart').easyPieChart({
