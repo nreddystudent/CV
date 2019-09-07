@@ -128,7 +128,7 @@
     position: relative;
     padding: 50px 15px 35px;
     text-align: center;
-    border: 2px solid #444;
+    border: 2px solid #000000;
     border-top: none;
 }
 .squareInnerContainer:before,
@@ -137,9 +137,8 @@
     position:absolute;
     top :0px;
     width: 30%;
-    border-bottom: 2px solid #444
+    border-bottom: 2px solid #000000
 }
-
 .squareInnerContainer:before{
     right: 0px;
 }
@@ -150,7 +149,7 @@
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #1e272e;
+    color: #fff;
 }
 .squareContent h3{
     font-size: 13px;
@@ -165,4 +164,9 @@
     height: 60px;
     font-size: 45px;
     margin-left: -20%;
+}
+
+#stats{
+    background-color: #2d3436;
+    color: #fff
 }
