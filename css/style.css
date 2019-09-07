@@ -1,3 +1,10 @@
+.body{
+    margin: 0px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
 .overlay {
     width: 100%;
     height: 100%;
@@ -47,4 +54,65 @@
 }
 .titleMessage .heading p.sub{
     font-size : 23px;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.aboutImage{
+    max-width: 100%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.skillsSection{
+    background-color: #010101;
+    color: #fff;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: #fff;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent::after{
+    content:'%'
+}
+
+h2{
+    margin-top: 100px
+}
+
+#subheading{
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+#about{
+    background-color: #2d3436;
+    color: #fff
 }
