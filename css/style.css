@@ -320,3 +320,7 @@
 .items {
     padding: 0;
 }
+
+.itemsContainer{
+    margin-left: 20%;
+}
