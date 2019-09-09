@@ -319,3 +319,43 @@
 .items {
     padding: 0;
 } 
+
+.copyrightSection{
+    background-color: #1e272e;
+    color: #fff;
+    padding: 30px 5px;
+
+}
+.copyrightSection p{
+    padding: 0;
+}
+
+#navigation{
+    background-color: #000000;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li{
+    padding:0 10px;
+}
+
+#navigation li a{
+    color: #2980b9;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color:#2980b9 
+}
+
+.navbar-toggler-icon{
+    background: url(../icons/menu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation{
+    position: fixed;
+    top: 0;
+}
